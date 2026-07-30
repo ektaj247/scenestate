@@ -1,0 +1,26 @@
+# Private working notes — never commit
+NOTES.md
+
+# Environment
+.venv/
+env/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Raw captures (large; commit processed data and plots instead)
+results/raw/
+*.pcd
+*.ply
+*.bag
+*.mkv
+data/raw/
+
+# Calibration is versioned deliberately — do NOT ignore calibration/
+# Keep: calibration/*.json
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
